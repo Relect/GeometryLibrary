@@ -9,7 +9,7 @@
     <version>1.1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>GeomytryUtils</module>
+        <module>GeometryUtils</module>
     </modules>
 
     <properties>
