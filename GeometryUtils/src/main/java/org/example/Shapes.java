@@ -39,5 +39,7 @@ public class Shapes {
         return meters * 1000;
     }
 
-    
+    public static double summArea(Shape shape1, Shape shape2) {
+        return shape1.getArea() + shape1.getArea();
+    }
 }
