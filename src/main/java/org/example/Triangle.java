@@ -17,6 +17,7 @@ public class Triangle implements Shape {
 
     @Override
     public double getArea() {
+        System.out.println("Получаем площадь");
         double p = getPerimeter() / 2;
         // формула Герона
         double s = Math.sqrt(p * (p-a)*(p-b)*(p-c));
@@ -25,6 +26,7 @@ public class Triangle implements Shape {
 
     @Override
     public double getPerimeter() {
+        System.out.println("Получаем периметр");
         return a+b+c;
     }
 }

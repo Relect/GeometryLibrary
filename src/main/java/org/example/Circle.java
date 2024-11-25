@@ -10,11 +10,13 @@ public class Circle implements Shape {
 
     @Override
     public double getArea() {
+        System.out.println("Получаем площадь");
         return Math.PI * radius * radius;
     }
 
     @Override
     public double getPerimeter() {
+        System.out.println("Получаем периметр");
         return 2 * Math.PI * radius;
     }
 }

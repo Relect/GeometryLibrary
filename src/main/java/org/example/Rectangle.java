@@ -12,11 +12,13 @@ public class Rectangle implements Shape {
 
     @Override
     public double getArea() {
+        System.out.println("Получаем площадь");
         return height * width;
     }
 
     @Override
     public double getPerimeter() {
+        System.out.println("Получаем периметр");
         return 2 * (height + width);
     }
 }
