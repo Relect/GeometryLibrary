@@ -21,4 +21,12 @@ public class Rectangle implements Shape {
         System.out.println("Получаем периметр");
         return 2 * (height + width);
     }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getWidth() {
+        return width;
+    }
 }

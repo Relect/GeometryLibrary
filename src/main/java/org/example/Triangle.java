@@ -23,10 +23,21 @@ public class Triangle implements Shape {
         double s = Math.sqrt(p * (p-a)*(p-b)*(p-c));
         return s;
     }
-
     @Override
     public double getPerimeter() {
         System.out.println("Получаем периметр");
         return a+b+c;
+    }
+
+    public double getA() {
+        return a;
+    }
+
+    public double getB() {
+        return b;
+    }
+
+    public double getC() {
+        return c;
     }
 }
